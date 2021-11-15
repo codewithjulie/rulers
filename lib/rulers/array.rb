@@ -3,4 +3,8 @@ class Array
     # inject(start, &:+)
     inject(start) {|value, num| value + num}
   end
+
+  def silly
+    "Returns a silly sentence"
+  end
 end
